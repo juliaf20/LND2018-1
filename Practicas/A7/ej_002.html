@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tarea 7 - Ej 2</title>
+    <meta charset="UTF-8">
+    
+</head>
+
+<body>
+    
+    <form action="formulario.php" method="post">
+        <fieldset>
+            
+            <legend>Información personal</legend>
+            
+            <br><br>
+            
+            <label for="name">Nombre:</label>
+            
+            <br>
+            
+            <input type="text" name="nombre" placeholder="Nombre completo" id="nombre" required autofocus/> <span style="color:red">*</span>
+            
+            <br><br>
+            
+            <label for="clave">Clave:</label>
+            
+            <br>
+            
+            <input type="password" name="clave" id="clave" required/> <span style="color:red">*</span>
+            
+            <br><br>
+            
+            <label for="edad">Edad (mayor que 18):</label>
+            
+            <br>
+            
+            <input type="number" min="18" max="100" step="1" value="18" name="edad" id="edad"/>
+            
+            <br><br>
+            
+            <label for="correo">Correo-e:</label>
+            
+            <br>
+            
+            <input type="email" name="correo" id="correo"/>
+            
+            <br><br>
+            
+            <label for="paginapersonal">Página personal:</label>
+            
+            <br>
+            
+            <input type="url" name="paginapersonal" id="paginapersonal"/>
+            
+            <br><br>
+            
+            <input type="submit" value="Enviar"/>
+            
+            
+            <input type="button" value="Pulsa aquí" onclick="alert('Juan Carlos Acosta Perabá')"/>
+            
+            
+        </fieldset>
+    </form>  
+
+</body>
+
+</html>

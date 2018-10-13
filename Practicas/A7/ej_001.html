@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tarea 7 - Ej 1</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Información personal</legend>
+            <br>
+
+            Apellidos:
+            <input type="text" name="Apellidos" />
+            <br><br>
+
+            Nombre:
+            <input type="text" name="Nombre" />
+            <br><br>
+
+            Dirección:
+            <input type="text" name="Dirección" />
+            <br>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Sistema Operativo</legend>
+            <br>
+
+            <select>
+                <option value="gnulinuz">GNU/Linux</option>
+                <option value="chromeos">Chrome OS</option>
+                <option value="windows">Windows</option>
+                <option value="macos">Mac OS</option>
+                <option value="unix">Unix</option>
+                <option value="solaris">Solaris</option>
+                <option value="freebsd">FreeBSD</option>
+                <option value="openbsd">OpenBSD</option>
+            </select>
+            <br>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Ordenador personal</legend>
+            <br>
+
+            ¿Tienes ordenador en tu casa?<br>
+            Sí
+            <input type="radio" name="gender" value="si">
+            <br>
+            No
+            <input type="radio" name="gender" value="no">
+            <br><br>
+
+            Si tienes ordenador describe sus características:<br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            <br><br>
+            
+            <input type="submit" value="Enviar" />
+            <input type="submit" value="Borrar" />
+            
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
