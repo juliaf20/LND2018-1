@@ -1,0 +1,127 @@
+body {
+    font-family: arial;
+}
+
+fieldset {
+    border-color: #e9ff00;
+    border-width: 10px;
+    border-style: solid;
+    background-color: #faffdc
+        
+}
+
+input.arch{
+    position: relative;
+    right: -225px;
+}
+
+#genero{
+    font-family: times new roman;
+    font-size: medium;
+    position: relative;
+    right: -200px;
+}
+
+input.name{
+    position: relative;
+    right: -200px;
+}
+
+input.gen{
+    position: relative;
+    right: -200px;
+}
+
+input.age{
+    position: relative;
+    right: -220px;
+}
+
+input.bday{
+    position: relative;
+    right: -109px;
+}
+
+input.favcolor{
+    position: relative;
+    right: -162px;
+}
+
+select{
+    position: relative;
+    right: -225px;
+}
+
+#OC1{
+    position: relative;
+    right: -215px;
+    background-color: #ff0000;
+    font-family: times new roman;
+    font-size: medium;
+}
+
+#OC2{
+    position: relative;
+    right: -215px;
+    background-color: #7500ff;
+    font-family: times new roman;
+    font-size: medium;
+}
+
+#OC3{
+    position: relative;
+    right: -207px;
+    background-color: #ff0000;
+    font-family: times new roman;
+    font-size: medium;
+}
+
+#OC4{
+    position: relative;
+    right: -207px;
+    background-color: #7500ff;
+    font-family: times new roman;
+    font-size: medium;
+}
+
+input.rang1{
+    position: relative;
+    right: -216px;
+}
+
+input.rang2{
+    position: relative;
+    right: -207px;
+}
+
+input.email{
+    position: relative;
+    right: -217px;
+}
+
+input.movil{
+    position: relative;
+    right: -220px;
+}
+
+textarea.texta1{
+    position: relative;
+    right: -190px;
+}
+
+input.check{
+    position: relative;
+    right: -113px;
+}
+
+#chec{
+    position: relative;
+    right: -108px;
+    font-family: times new roman;
+    font-size: medium;
+}
+
+label:hover{
+    font-size: 30px;
+    
+}

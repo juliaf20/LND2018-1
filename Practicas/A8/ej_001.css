@@ -1,0 +1,30 @@
+h1 {
+    color: #ff0000;
+    font-family: arial;
+    font-size: xlarge;
+}
+
+#p1 {
+    color: #b8232f;
+    font-family: times new roman;
+    font-size: medium;
+}
+
+#n {
+    color: #7500ff;
+    font-weight: bold;
+    font-size: large;
+    font-family: courier new;
+}
+
+#c {
+    color: #64c04e;
+    font-style: italic;
+    font-size: x-large;
+    font-family: calibri;
+}
+
+li {
+    background-color: #7f7f7f;
+    color: #e9ff06;
+}
