@@ -1,0 +1,31 @@
+body {
+    font-family: arial;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.sender-column {
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.neg {
+    font-weight: bold;
+}
+
+.sub {
+    vertical-align: sub;
+}
+
+.exp {
+    vertical-align: super;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+#receptor {
+    font-size: 1.1em;
+}
