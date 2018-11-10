@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+#articulos {
+    position: relative;
+    left: 5px;
+}
+
+#sobremi {
+    position: relative;
+    left: 10px;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+    position: relative;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    color: #cdecd9;
+    text-decoration: none;
+    font-family: times new roman;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+li a:hover {
+    background-color: red;
+}
