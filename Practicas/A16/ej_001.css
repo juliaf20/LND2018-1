@@ -1,0 +1,161 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'arial';
+    min-height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color: #0c7f29;
+}
+
+header {
+    padding: 1em;
+    background-color: #8b8e8c;
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.topnav ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.topnav li {
+    list-style: none;
+}
+
+.topnav a {
+    text-decoration: none;
+    padding: 1.5em;
+    background-color: #5b5c60;
+    color: aquamarine;
+}
+
+.topnav a:hover {
+    background-color: #5b5c60;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'times new roman';
+}
+
+main {
+    display: flex;
+    padding: 3em 0 3em 3em;
+    margin: 4em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #8b8e8c;
+}
+
+.fila {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.columna {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 40em;
+}
+
+@media screen and (max-width: 76.8em) {
+
+    .fila {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 76.8em) {
+
+    .topnav li:not(:first-child) {
+        display: none;
+    }
+
+    .topnav li.icon {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 76.8em) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive li {
+        float: none;
+        display:flex;
+    }
+}
+
+
+@media screen and (max-width: 99.2em) {
+
+    .fila {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .columna:nth-of-type(3) {
+        flex-grow: 2;
+    }
+}
+
+article {
+    margin: 1.5em;
+    border: 0.1em solid black;
+    background-color: #a6a8a6;
+    padding: 1em;
+}
+
+h2 {
+    text-align: center;
+    border: 0.1em solid black;
+    width: 30%;
+    background-color: #515652;
+    color: white;
+    margin-left: 70%;
+    margin-top: 0;
+}
+
+p {
+    padding: 0.4em;
+}
