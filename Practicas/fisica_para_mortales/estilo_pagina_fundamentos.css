@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3em;
+}
+
+th, td {
+    padding: 1em;
+}
+
+th {
+    text-align: center;
+}
+
+table {
+    margin-left: 10%;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+main article {
+    font-size: 1.4em;
+    margin: 2em;
+    padding: 0;
+    color: #01114f;
+}

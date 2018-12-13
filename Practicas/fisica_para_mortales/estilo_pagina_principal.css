@@ -1,0 +1,15 @@
+main {
+    margin: 0;
+    padding: 3em;
+    font-size: 1.5em;
+    font-family: arial;
+}
+
+article img.cubo4d {
+    float: left;
+    padding: 0.3em 1em 0 1em;
+}
+
+article img.pendulo {
+    float: right;
+}
