@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+
+  <curso id="1">
+    <nombre>Entornos</nombre>
+    <precio periodicidad="Trimestral" moneda="Euros">10</precio>
+    <plazas>8</plazas>
+    <fechaInicio>2018-01-31</fechaInicio>
+    <fechaFin>2021-01-31</fechaFin>
+    <profesor>Antonio</profesor>
+    <sala>1</sala>
+  </curso>
+  
+  <curso id="2">
+    <nombre>Filología</nombre>
+    <precio periodicidad="Mensual" moneda="Euros">2</precio>
+    <plazas>30</plazas>
+    <fechaInicio>2021-01-31</fechaInicio>
+    <fechaFin>2022-01-31</fechaFin>
+    <profesor>Jonatan</profesor>
+    <sala>2</sala>
+  </curso>
+  
+  <curso id="6">
+    <nombre>Física</nombre>
+    <precio periodicidad="Trimestral" moneda="Euros">6000</precio>
+    <plazas>1</plazas>
+    <fechaInicio>2020-01-31</fechaInicio>
+    <fechaFin>2019-01-31</fechaFin>
+    <profesor>Jose</profesor>
+    <sala>3</sala>
+  </curso>
+  
+  <curso id="8">
+    <nombre>SST</nombre>
+    <precio periodicidad="Trimestral" moneda="Euros">100</precio>
+    <plazas>12</plazas>
+    <fechaInicio>2019-03-15</fechaInicio>
+    <fechaFin>2019-05-31</fechaFin>
+    <profesor>Juan Carlos</profesor>
+    <sala>5</sala>
+  </curso>
+  
+</cursos>

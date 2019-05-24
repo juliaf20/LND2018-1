@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="e3.xsl"?><ajedrez>
+  <jugador>
+    <nombre>Paco</nombre>
+    <puntos>9234</puntos>
+  </jugador>
+  <jugador>
+    <nombre>Pepa</nombre>
+    <puntos>1673</puntos>
+  </jugador>
+  <jugador>
+    <nombre>Juan</nombre>
+    <puntos>5678</puntos>
+  </jugador>
+  <jugador>
+    <nombre>Pedro</nombre>
+    <puntos>0583</puntos>
+  </jugador>
+  <jugador>
+    <nombre>Rosa</nombre>
+    <puntos>9879</puntos>
+  </jugador>
+</ajedrez>
