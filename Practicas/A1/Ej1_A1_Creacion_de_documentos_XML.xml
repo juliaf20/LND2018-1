@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Empresa>
+  <Empleado_1>
+    <Prim_Nom>Juan Carlos</Prim_Nom>
+    <Apellido>Acosta Peraba</Apellido>
+    <Num_Contac>6789012345</Num_Contac>
+    <Correo_elec>juancarlos@gmail.com</Correo_elec>
+    <Direccion>
+      <Ciudad>Puerto del Rosario</Ciudad>
+      <Estado>USA</Estado>
+      <Zip>35600</Zip>
+    </Direccion>
+  </Empleado_1>
+  <Empleado_2>
+    <Prim_Nom>Malcon</Prim_Nom>
+    <Apellido>Moreno Hernandez</Apellido>
+    <Num_Contac>612345678</Num_Contac>
+    <Correo_elec>malcon1998@gmail.com</Correo_elec>
+    <Direccion>
+      <Ciudad>Alandaluz</Ciudad>
+      <Estado>Hispania</Estado>
+      <Zip>38002</Zip>
+    </Direccion>
+  </Empleado_2>
+</Empresa>

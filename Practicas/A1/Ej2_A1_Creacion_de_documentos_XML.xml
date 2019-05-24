@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Agenda>
+  <Contactos>
+    <Nom>Juan Carlos</Nom>
+    <Apellidos>Acosta Peraba</Apellidos>
+    <Direccion>
+      <Ciudad>Puerto del Rosario</Ciudad>
+      <Estado>USA</Estado>
+      <Zip>35600</Zip>
+    </Direccion>
+    <Telefonos>
+      <Casa>928886623</Casa>
+      <Movil>634807456</Movil>
+      <Tele_trabajo>928019384</Tele_trabajo>
+    </Telefonos>
+    
+    <Nom>Malcon</Nom>
+    <Apellidos>Moreno Hernandez</Apellidos>
+    <Direccion>
+      <Ciudad>Alandaluz</Ciudad>
+      <Estado>Hispania</Estado>
+      <Zip>38002</Zip>
+    </Direccion>
+    <Telefonos>
+      <Casa>928098765</Casa>
+      <Movil>60597654</Movil>
+      <Tele_trabajo>928123456</Tele_trabajo>
+    </Telefonos>
+  </Contactos>
+</Agenda>
