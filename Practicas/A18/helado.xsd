@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="helado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tipo">
+          <xs:complexType>
+            <xs:choice>
+              <xs:element name="polo" type="xs:integer" maxOccurs="1" minOccurs="0"/>
+              <xs:element name="cornete" type="xs:integer" maxOccurs="1" minOccurs="0"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="sabor">
+          <xs:complexType>
+            <xs:choice>
+              <xs:element name="nata" type="xs:integer" maxOccurs="1" minOccurs="0"/>
+              <xs:element name="fresa" type="xs:integer" maxOccurs="1" minOccurs="0"/>
+            </xs:choice>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

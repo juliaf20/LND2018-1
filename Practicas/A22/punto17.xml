@@ -1,0 +1,15 @@
+﻿<!--(//Nombre[text()="Jason"]/../../..)[2]-->
+
+<Libro ISBN="8495318687">
+  <Titulo>Iniciación a Xml</Titulo>
+  <Autores>
+    <Autor>
+      <Nombre>Jason</Nombre>
+      <Apellido>Beres</Apellido>
+    </Autor>
+  </Autores>
+  <Editorial>Inforbooks</Editorial>
+  <Publicacion>2001</Publicacion>
+  <Paginas>836</Paginas>
+  <Precio moneda="dolares">66.5</Precio>
+</Libro>

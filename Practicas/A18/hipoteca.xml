@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prestamo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hipoteca.xsd">
+
+  <banco>Bankinter</banco>
+  
+  <fechaInicio>2019-01-08</fechaInicio>
+  
+  <datos>
+    
+    <id>9876</id>
+    <nombre>Juan</nombre>
+    <apellidos>Acosta</apellidos>
+    <telefono>6549873</telefono>
+    <direccion>
+      
+      <calle>Calle</calle>
+      <nombreCalle>Mozart</nombreCalle>
+      <numero>90</numero>
+      <letra>P</letra>
+      <cp>35600</cp>
+      <localidad>Puerto del Rosario</localidad>
+      <provincia>Las Palmas</provincia>
+      
+    </direccion>
+    
+  </datos>
+
+</prestamo>

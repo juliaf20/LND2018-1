@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej_001.xsd">
+  <tipo>
+    <cornete>4</cornete>
+  </tipo>
+  
+  <sabor>
+    <fresa>3</fresa>
+  </sabor>
+  
+</helado>

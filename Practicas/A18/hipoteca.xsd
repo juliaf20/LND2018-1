@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <!-- Elementos simples -->
+  <xs:element name="banco" type="xs:string"/>
+  <xs:element name="fechaInicio" type="xs:date"/>
+  <xs:element name="id" type="xs:integer"/>
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="apellidos" type="xs:string"/>
+  <xs:element name="telefono" type="xs:string"/>
+  <xs:element name="nombreCalle" type="xs:string"/>
+  <xs:element name="numero" type="xs:positiveInteger"/>
+  <xs:element name="piso" type="xs:integer"/>
+  <xs:element name="letra" type="xs:string"/>
+  <xs:element name="cp" type="xs:integer"/>
+  <xs:element name="localidad" type="xs:string"/>
+  <xs:element name="provincia" type="xs:string"/>
+  
+  <!-- Elementos complejos -->
+  <xs:element name="prestamo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="banco"/>
+        <xs:element ref="fechaInicio"/>
+        <xs:element ref="datos" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="datos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="nombre"/>
+        <xs:element ref="apellidos"/>
+        <xs:element ref="telefono"/>
+        <xs:element ref="direccion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="direccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="calle" type="tipoCalle"/>
+        <xs:element ref="nombreCalle"/>
+        <xs:element ref="numero"/>
+        <xs:element ref="letra"/>
+        <xs:element ref="cp"/>
+        <xs:element ref="localidad"/>
+        <xs:element ref="provincia"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Restricion -->
+  <xs:simpleType name="tipoCalle">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Calle"/>
+      <xs:enumeration value="Avenida"/>
+      <xs:enumeration value="Plaza"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  
+</xs:schema>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!-- Elementos simples -->
+  <xs:element name="indice" type="xs:string"/>
+  <xs:element name="cuerpo" type="xs:string"/>
+  <xs:element name="conclusiones" type="xs:string"/>
+  <xs:element name="pie">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="\d{2}/\d{2}/\d{4}"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="nota">
+    <xs:simpleType>
+      <xs:restriction base="xs:decimal">
+        <xs:fractionDigits value="2"/>
+        <xs:maxInclusive value="10"/>
+        <xs:minInclusive value="1"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <!-- Atributos -->
+  <xs:attribute name="autor" type="xs:string"/>
+  <xs:attribute name="modulo" type="xs:string"/>
+  <xs:attribute name="titulo" type="xs:string"/>
+  <!-- Elementos complejos -->
+  <xs:element name="entregas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="trabajo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trabajo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cabecera" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element ref="cuerpo" maxOccurs="unbounded" minOccurs="1"/>
+        <xs:element ref="conclusiones" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="pie"/>
+        <xs:element ref="nota"/>
+      </xs:sequence>
+      <xs:attribute ref="autor"/>
+      <xs:attribute ref="modulo"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cabecera">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="indice" minOccurs="3" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="titulo"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

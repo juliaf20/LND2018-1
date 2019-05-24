@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding ="ISO-8859-1"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="biblio.xsd">
+    
+    <libro>
+        <codigo>
+            001
+        </codigo>
+        <titulo>
+            El Oscuro PAsajero
+        </titulo>
+        <Editorial>
+            Umbriel
+        </Editorial>
+        <Edicion>
+            La primera
+        </Edicion>
+        <ISBN>
+            84-95618-83-4
+        </ISBN>
+        <Numero_de_paginas>
+            251
+        </Numero_de_paginas>
+        <Autor>
+            Jeff Lindsay
+        </Autor>
+    </libro>
+</biblioteca>
+
+

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <!-- Elementos simples -->
+  <xs:element name="ingrediente" type="xs:string"/>
+  <xs:element name="utensilio" type="xs:string"/>
+  
+  <!-- Atributos -->
+  <xs:attribute name="nombre" type="xs:string"/>
+  <xs:attribute name="numeroDePersonas" type="xs:string"/>
+  
+  <!-- Elementos complejos -->
+  <xs:element name="recetas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="receta" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="receta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ingredientes"/>
+        <xs:element ref="preparacion"/>
+      </xs:sequence>
+      <xs:attribute ref="nombre"/>
+      <xs:attribute ref="numeroDePersonas"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="ingredientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ingrediente" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="paso">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element ref="utensilio" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="preparacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="paso" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  
+  
+  
+  
+</xs:schema>

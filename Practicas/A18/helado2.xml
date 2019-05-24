@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<helado2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helado2.xsd">
+
+  <sabor>chocolate</sabor>
+  
+  <tipo>cornete</tipo>
+  
+  <tamano>mediano</tamano>
+
+</helado2>

@@ -1,0 +1,28 @@
+﻿<!--//Nombre[text()="Dan"]/../../..-->
+
+<Libro ISBN="8495618826">
+  <Titulo>La Conspiracion</Titulo>
+  <Autores>
+    <Autor>
+      <Nombre>Dan</Nombre>
+      <Apellido>Brown</Apellido>
+    </Autor>
+  </Autores>
+  <Editorial>Umbriel</Editorial>
+  <Publicacion>2005</Publicacion>
+  <Paginas>610</Paginas>
+  <Precio moneda="pesos argentinos">48</Precio>
+</Libro>
+<Libro ISBN="8495618605">
+  <Titulo>El Código Da Vinci</Titulo>
+  <Autores>
+    <Autor>
+      <Nombre>Dan</Nombre>
+      <Apellido>Brown</Apellido>
+    </Autor>
+  </Autores>
+  <Editorial>Umbriel</Editorial>
+  <Publicacion>2003</Publicacion>
+  <Paginas>562</Paginas>
+  <Precio moneda="pesos argentinos">42</Precio>
+</Libro>

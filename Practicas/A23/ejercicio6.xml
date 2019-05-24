@@ -1,0 +1,3 @@
+﻿<!--//musico[@id=(//nombre[text()="La Traviata"]/../autor/text())]/fechas/@nacimiento-->
+
+ nacimiento="1813"

@@ -1,0 +1,6 @@
+﻿<!--//Precio[@moneda="dolares"]/../Titulo | //Precio[@moneda="dolares"]/../Editorial-->
+
+<Titulo>La Biblia C#</Titulo>
+<Editorial>Anaya Multimedia</Editorial>
+<Titulo>Iniciación a Xml</Titulo>
+<Editorial>Inforbooks</Editorial>

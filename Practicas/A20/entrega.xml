@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<entregas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="entrega.xsd">
+  <trabajo autor="Juan Carlos" modulo="BAE">
+    
+    <cabecera titulo="A20">
+      <indice>Intro</indice>
+      <indice>Definicion</indice>
+      <indice>Ejemplos</indice>
+      <indice>Bibliografia</indice>
+    </cabecera>
+    
+    <cuerpo>
+      Este es un trabajo para lenguaje de marcas
+    </cuerpo>
+    
+    <conclusiones>
+    </conclusiones>
+    
+    <pie>25/01/2019</pie>
+    
+    <nota>8.05</nota>
+    
+  </trabajo>
+</entregas>
