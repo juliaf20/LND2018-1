@@ -1,0 +1,47 @@
+* {
+  padding: 3px;
+  margin: 0;
+}
+
+#header {
+  height: 40px;
+  background-color: green;
+  border: 1px solid black;
+  color: green;
+}
+
+#footer {
+  background-color: green;
+  border: 1px solid black;
+  color: green;
+}
+
+#red {
+  background-color: red;
+  border: 1px solid black;
+  color: red;
+}
+
+#pink {
+  background-color: pink;
+  border: 1px solid black;
+  color: pink;
+}
+
+#orange {
+  background-color: orange;
+  border: 1px solid black;
+  color: orange;
+  height: 60px;
+}
+
+#blue {
+  background-color: blue;
+  border: 1px solid black;
+  color: blue;
+}
+
+#box {
+  border: 1px solid #343430;
+  background-color: #666251;
+}
