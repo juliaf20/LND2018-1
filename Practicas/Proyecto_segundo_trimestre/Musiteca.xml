@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="Musiteca.xsl"?>
+
+<musiteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Musiteca.xsd">
+
+  <track id="1">
+    <Nombre>Thunderstruck</Nombre>
+    <Duracion>00:03:52</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>1990</Anyo>
+    <BitRate>128</BitRate>
+    <Artista>AC/DC</Artista>
+    <Album>The Razors Edge</Album>
+    <Genero>Hard rock</Genero>
+    <TipoArchivo>mp3</TipoArchivo>
+    <TamañoArchivo>2.93</TamañoArchivo>
+    <FechaCreacion>2017-03-05</FechaCreacion>
+    <Comentarios>TEMAZO</Comentarios>
+  </track>
+  
+  <track id="2">
+    <Nombre>Get Pusy (Superpig Remix)</Nombre>
+    <Duracion>00:07:52</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>2015</Anyo>
+    <BitRate>320</BitRate>
+    <Artista>SUPERPIG</Artista>
+    <Album>Da Hool</Album>
+    <Genero>Reggaeton</Genero>
+    <TipoArchivo>wav</TipoArchivo>
+    <TamañoArchivo>12.93</TamañoArchivo>
+    <FechaCreacion>2011-03-05</FechaCreacion>
+    <Comentarios>Tómalo</Comentarios>
+    <Comentarios>Cracks</Comentarios>
+  </track>
+  
+  <track id="3">
+    <Nombre>Highway to Hell</Nombre>
+    <Duracion>00:06:52</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>1990</Anyo>
+    <BitRate>256</BitRate>
+    <Artista>AC/DC</Artista>
+    <Album>Hell</Album>
+    <Genero>Hard rock</Genero>
+    <TipoArchivo>flac</TipoArchivo>
+    <TamañoArchivo>2.93</TamañoArchivo>
+    <FechaCreacion>2007-03-05</FechaCreacion>
+    <Comentarios></Comentarios>
+  </track>
+  
+  <track id="4">
+    <Nombre>Hells Bells</Nombre>
+    <Duracion>00:14:52</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>1990</Anyo>
+    <BitRate>128</BitRate>
+    <Artista>AC/DC</Artista>
+    <Album>Bells</Album>
+    <Genero>Hard rock</Genero>
+    <TipoArchivo>mp3</TipoArchivo>
+    <TamañoArchivo>2.93</TamañoArchivo>
+    <FechaCreacion>2017-03-05</FechaCreacion>
+    <Comentarios></Comentarios>
+  </track>
+  
+  <track id="5">
+    <Nombre>TNT</Nombre>
+    <Duracion>00:03:52</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>1990</Anyo>
+    <BitRate>128</BitRate>
+    <Artista>AC/DC</Artista>
+    <Album>Boom</Album>
+    <Genero>Hard rock</Genero>
+    <TipoArchivo>mp3</TipoArchivo>
+    <TamañoArchivo>2.93</TamañoArchivo>
+    <FechaCreacion>2017-03-05</FechaCreacion>
+    <Comentarios></Comentarios>
+  </track>
+  
+  <track id="6">
+    <Nombre>Candy on the Dance Floor</Nombre>
+    <Duracion>00:16:00</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>2017</Anyo>
+    <BitRate>128</BitRate>
+    <Artista>Tujamo</Artista>
+    <Album>Single Candy on the Dance Floor</Album>
+    <Genero>Dance</Genero>
+    <TipoArchivo>mp3</TipoArchivo>
+    <TamañoArchivo>2.93</TamañoArchivo>
+    <FechaCreacion>2017-03-05</FechaCreacion>
+    <Comentarios>Tuja</Comentarios>
+  </track>
+  
+  <track id="7">
+    <Nombre>Moneytalks</Nombre>
+    <Duracion>00:05:52</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>1990</Anyo>
+    <BitRate>128</BitRate>
+    <Artista>AC/DC</Artista>
+    <Album>The Razors Edge</Album>
+    <Genero>Hard rock</Genero>
+    <TipoArchivo>mp3</TipoArchivo>
+    <TamañoArchivo>2.93</TamañoArchivo>
+    <FechaCreacion>2017-03-05</FechaCreacion>
+    <Comentarios></Comentarios>
+  </track>
+  
+  <track id="8">
+    <Nombre>Let There Be Rock</Nombre>
+    <Duracion>00:04:00</Duracion>
+    <Disco>1</Disco>
+    <Numero>1</Numero>
+    <Anyo>1990</Anyo>
+    <BitRate>128</BitRate>
+    <Artista>AC/DC</Artista>
+    <Album>The Razors Edge</Album>
+    <Genero>Hard rock</Genero>
+    <TipoArchivo>mp3</TipoArchivo>
+    <TamañoArchivo>2.93</TamañoArchivo>
+    <FechaCreacion>2017-03-05</FechaCreacion>
+    <Comentarios></Comentarios>
+  </track>
+  
+</musiteca>

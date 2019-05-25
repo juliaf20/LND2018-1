@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <!-- Atributos -->
+  <xs:attribute name="id" type="xs:integer"/>
+  
+  <!-- Elementos simples -->
+  <xs:element name="Nombre" type="xs:string"/>
+  
+  <xs:element name="Duracion">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="\d{2}:\d{2}:\d{2}"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+  <xs:element name="Disco" type="xs:integer"/>
+  
+  <xs:element name="Numero" type="xs:integer"/>
+  
+  <xs:element name="Anyo" type="xs:integer"/>
+  
+  <xs:element name="BitRate" type="xs:integer"/>
+  
+  <xs:element name="Artista" type="xs:string"/>
+  
+  <xs:element name="Album" type="xs:string"/>
+  
+  <xs:element name="Genero" type="xs:string"/>
+  
+  <xs:element name="TipoArchivo" type="xs:string"/>
+  
+  <xs:element name="TamañoArchivo">
+    <xs:simpleType>
+      <xs:restriction base="xs:decimal">
+        <xs:fractionDigits value="2"/>
+        <xs:maxInclusive value="50"/>
+        <xs:minInclusive value="1"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+  <xs:element name="FechaCreacion">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  
+  <xs:element name="Comentarios" type="xs:string"/>
+  
+  <!-- Elementos complejos -->
+  <xs:element name="musiteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="track" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="track">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Nombre" maxOccurs="unbounded"/>
+        <xs:element ref="Duracion" maxOccurs="1"/>
+        <xs:element ref="Disco" maxOccurs="unbounded"/>
+        <xs:element ref="Numero" maxOccurs="unbounded"/>
+        <xs:element ref="Anyo" maxOccurs="1" minOccurs="1"/>
+        <xs:element ref="BitRate" maxOccurs="1"/>
+        <xs:element ref="Artista" maxOccurs="unbounded"/>
+        <xs:element ref="Album" maxOccurs="unbounded"/>
+        <xs:element ref="Genero" maxOccurs="unbounded"/>
+        <xs:element ref="TipoArchivo" maxOccurs="unbounded"/>
+        <xs:element ref="TamañoArchivo" maxOccurs="1"/>
+        <xs:element ref="FechaCreacion" maxOccurs="1"/>
+        <xs:element ref="Comentarios" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute ref="id"/>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>
