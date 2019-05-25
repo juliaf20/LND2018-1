@@ -1,0 +1,12 @@
+#titulo {
+  text-decoration: underline;
+}
+
+#comp {
+  font-weight: bold;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}

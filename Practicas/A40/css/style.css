@@ -1,0 +1,17 @@
+#titulo {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+#imagen {
+  width: 50%;
+  height: 50%;
+  border: 2px solid black;
+}
+
+#central {
+  width: 200px;
+}

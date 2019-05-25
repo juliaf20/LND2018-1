@@ -1,0 +1,23 @@
+#blue{
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#grey {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#green {
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#red {
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 3px;
+}

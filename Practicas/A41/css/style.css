@@ -1,0 +1,12 @@
+#titulo {
+  text-decoration: underline;
+}
+
+#imagen1 {
+  width: 25%;
+  height: 25%;
+}
+
+.border {
+  border-width: 5px!important;
+}

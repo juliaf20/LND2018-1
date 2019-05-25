@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Título de la página -->
+  <title>A43</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Mi CSS -->
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+  <!-- Texto -->
+
+  <header>
+    <div class="jumbotron">
+      <h1 class="display-4 text-center">Componentes: botones, cards y collapse</h1>
+    </div>
+  </header>
+
+  <section class="container">
+
+    <!-- -- Ejercicio 1 -- -->
+    <h1 class="display-3" id="titulo">Ejercicio 1</h1>
+
+    <div class="row">
+      <div class="col-sm m-4">
+        <div class="card border rounded-lg p-4 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title text-center">Servicios</h4>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus asperiores molestiae reprehenderit consequuntur voluptatum maiores nam necessitatibus, tenetur, rerum rem veritatis numquam labore.
+              Atque libero, temporibus vitae officiis magnam eaque.</p>
+            <a href="#" class="btn btn-primary btn-block">Ver información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm m-4">
+        <div class="card border rounded-lg p-4 shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title text-center">Servicios</h4>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum culpa numquam a, animi similique enim eaque sapiente eos illum ut, quia saepe dicta quas neque blanditiis quos amet praesentium obcaecati!</p>
+            <a href="#" class="btn btn-secondary btn-block">Ver información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- -- Ejercicio 2 -- -->
+    <h1 class="display-3" id="titulo">Ejercicio 2</h1>
+
+    <div class="card border border-black rounded-lg p-2 shadow">
+      <div class="card-body">
+        <h1 class="card-title text-center">Submit Album</h1>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="card border border-secondary m-2">
+      <div class="card-header">
+        <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#mensaje1" aria-expanded="true" aria-controls="mensaje1">Album Title and Artist</button>
+      </div>
+      <div class="collapse show" id="mensaje1">
+        <div class="card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui architecto ullam quisquam laborum, voluptates? Voluptate officiis id voluptatibus quia maxime commodi atque obcaecati, deleniti, laudantium excepturi unde quos at saepe.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card border border-secondary m-2">
+      <div class="card-header">
+        <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#mensaje2" aria-expanded="false" aria-controls="mensaje2">Track Information</button>
+      </div>
+      <div class="collapse" id="mensaje2">
+        <div class="card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam dicta ea, explicabo commodi quod sit molestiae veritatis asperiores magni minus iure aspernatur adipisci laboriosam maxime repudiandae! Minus, cum ut.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card border border-secondary m-2">
+      <div class="card-header">
+        <button class="btn btn-secondary btn-block" type="button" data-toggle="collapse" data-target="#mensaje3" aria-expanded="false" aria-controls="mensaje3">Expert Review</button>
+      </div>
+      <div class="collapse" id="mensaje3">
+        <div class="card-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolor alias facilis minima similique, ea accusantium! Minus iure quisquam dolore consectetur magni a in maiores tenetur. Iste odit doloribus deleniti.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Jquery y popper -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

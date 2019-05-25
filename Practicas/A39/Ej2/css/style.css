@@ -1,0 +1,8 @@
+h2 {
+  text-decoration: underline;
+}
+
+#imagen1, #imagen2 {
+  width: 50%;
+  height: 50%;
+}

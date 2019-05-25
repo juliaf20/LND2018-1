@@ -1,0 +1,17 @@
+h2 {
+  text-decoration: underline;
+}
+
+.bg-primary {
+    background-color: #69f0ae!important;
+}
+
+.bg-secondary {
+    background-color: #eeff41!important;
+}
+
+#imagen1 {
+  width: 110%;
+  height: 110%;
+  margin-top: 20px;
+}

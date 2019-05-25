@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Título de la página -->
+  <title>A 41</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Mi CSS -->
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+  <!-- Texto -->
+  <div class="container">
+
+    <!-- -- Ejercicio 1 -- -->
+    <h1 class="display-3" id="titulo">Ejercicio 1</h1>
+
+    <br>
+
+    <div class="border p-2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque optio pariatur aut doloremque repellat consectetur sunt, adipisci corrupti, incidunt, non expedita voluptates odit modi qui dolorem recusandae perferendis! Illo, officia.</p>
+    </div>
+
+    <br>
+
+    <p>
+      Como podemos observar, el tamaño del borde que Bootstrap aplica al texto con la clase "border" es de 1px, sin haber una opción para aumentar o disminuir este grosor. De este modo, la forma de cambiar el grosor de la línea del borde es sobrescribiendo el CSS con una hoja de estilos propia.
+      <br>
+      <img src="images/imagen1.jpg" alt="Imagen 1" id="imagen1">
+      <img src="images/imagen2.jpg" alt="Imagen 2" id="imagen1">
+    </p>
+
+    <br>
+
+    <div class="border border-primary p-2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis nisi earum voluptatibus. Soluta magni error dolor tenetur enim, omnis hic! Facere quasi repudiandae dolor? Pariatur at quibusdam voluptatibus, deleniti tempore!</p>
+    </div>
+
+    <br>
+
+    <div class="border border-secondary p-2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi eum repudiandae temporibus esse quae excepturi culpa, impedit quos neque velit a, exercitationem officia deleniti. Asperiores dignissimos, doloribus vel. Saepe, beatae.</p>
+    </div>
+
+    <br>
+
+    <div class="border border-danger rounded p-2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque non molestiae tempore. Officiis odio commodi veniam placeat, suscipit id, aliquid atque deserunt soluta debitis ut impedit, reiciendis. Harum, reiciendis vel.</p>
+    </div>
+
+    <br>
+
+    <div class="border-0 p-2 shadow">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis explicabo sit neque ipsum nulla facere consequuntur. Necessitatibus consequuntur laborum quae accusantium cupiditate quod quisquam aliquam, dignissimos esse, ducimus, repellat nulla!</p>
+    </div>
+
+    <br>
+
+    <!-- -- Ejercicio 2 -- -->
+    <h1 class="display-3" id="titulo">Ejercicio 2</h1>
+
+    <br>
+
+    <div class="row">
+      <div class="col p-2 border border-primary">
+        <img src="images/pandoras_world.jpg" alt="Mundo de Pandora" class="img-fluid">
+      </div>
+      <div class="col p-2 border border-success">
+        Columna 2
+      </div>
+    </div>
+
+    <br>
+
+    <p>3. Lo que sucede es que la imagen no se adapta al tamaño de la columna, pero, sin embargo, la seunda columna se ubica de bajo de la primera.</p>
+    <p>4. Al aplicar a la imagen la clase de Bootstrap "img-fluid", se rescala a un tamaño en apropiado para poder observar ambas columnas en la misma fila.</p>
+
+    <img src="images/pandoras_world.jpg" alt="Mundo de Pandora" class="img-thumbnail">
+
+    <br>
+
+    <div class="row">
+      <div class="col p-2 border border-primary">
+        <img src="images/cup.jpg" alt="Taza" class="img-fluid rounded">
+      </div>
+      <div class="col p-2 border border-primary">
+        <img src="images/cup.jpg" alt="Taza" class="img-fluid rounded-top">
+      </div>
+      <div class="col p-2 border border-primary">
+        <img src="images/cup.jpg" alt="Taza" class="img-fluid rounded-right">
+      </div>
+      <div class="col p-2 border border-primary">
+        <img src="images/cup.jpg" alt="Taza" class="img-fluid rounded-bottom">
+      </div>
+      <div class="col p-2 border border-primary">
+        <img src="images/cup.jpg" alt="Taza" class="img-fluid rounded-left">
+      </div>
+      <div class="col p-2 border border-primary">
+        <img src="images/cup.jpg" alt="Taza" class="img-fluid rounded-circle">
+      </div>
+      <div class="col p-2 border border-primary">
+        <img src="images/cup.jpg" alt="Taza" class="img-fluid rounded-0">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Jquery y popper -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
