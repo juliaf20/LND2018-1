@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +14,77 @@
   <!-- Mi CSS -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
   <!-- Texto -->
+  <div class="container">
+
+    <header>
+      <div class="jumbotron">
+        <h1 class="display-3 text-center">Formularios</h1>
+      </div>
+    </header>
+
+    <div class="card px-3 py-2">
+      <div class="row">
+        <div class="col-12 mb-2">
+          <form>
+            <input type="text" class="form-control" id="numeroTarjeta" placeholder="Enter Card Number">
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3"><label for="mesTarjeta">Expiry Month</label></div>
+        <div class="col-3"><label for="anoTarjeta">Expiry Year</label></div>
+        <div class="col-3"><label for="ccv">CCV</label></div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <form>
+            <input type="month" class="form-control month" id="mesTarjeta" placeholder="MM">
+          </form>
+        </div>
+        <div class="col-3">
+          <form>
+            <input type="text" class="form-control" id="anoTarjeta" placeholder="YY">
+          </form>
+        </div>
+        <div class="col-3">
+          <form>
+            <input type="text" class="form-control" id="ccv" placeholder="CCV">
+          </form>
+        </div>
+        <div class="col-1">
+          <img src="images/creditCard.png" alt="Credit Card" id="imagen1">
+        </div>
+      </div>
+      <div class="row my-2">
+        <div class="col-12">
+          <form>
+            <input type="text" class="form-control text" id="nombreTarjeta" placeholder="Name On The Card">
+          </form>
+        </div>
+      </div>
+      <div class="row my-2">
+        <div class="col-12">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Save details for fast payments <a href="#">learn how &#63;</a>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <button type="submit" class="btn btn-danger">CANCEL</button>
+        </div>
+        <div class="col-6">
+          <button type="submit" class="btn btn-warning px-5">PAY NOW</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <!-- Jquery y popper -->
   <script src="js/jquery-3.4.1.min.js"></script>
@@ -22,4 +92,5 @@
   <script src="js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
