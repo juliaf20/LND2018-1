@@ -18,75 +18,74 @@
 <body>
   <!-- Texto -->
   <div class="container">
+
+    <!-- Header -->
     <header>
       <div class="jumbotron">
         <h1 class="display-3 text-center">Formularios</h1>
       </div>
     </header>
 
-    <div class="row">
-      <div class="col-3"></div>
-      <div class="col-6">
-        <div class="jumbotron">
-          <form action="index.html" method="_POST" id="creditCard">
-            <div class="row">
-              <div class="col-12 mb-2">
-                <input type="text" class="form-control" id="numeroTarjeta" placeholder="Enter Card Number" required autofocus>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-3"><label for="mesTarjeta">Expiry Month</label></div>
-              <div class="col-3"><label for="anoTarjeta">Expiry Year</label></div>
-              <div class="col-3"><label for="ccv">CCV</label></div>
-            </div>
-            <div class="row">
-              <div class="col-3">
-                <form>
-                  <input type="month" class="form-control month" id="mesTarjeta" placeholder="MM" required>
-                </form>
-              </div>
-              <div class="col-3">
-                <form>
-                  <input type="text" class="form-control" id="anoTarjeta" placeholder="YY" required>
-                </form>
-              </div>
-              <div class="col-3">
-                <form>
-                  <input type="text" class="form-control" id="ccv" placeholder="CCV" required>
-                </form>
-              </div>
-              <div class="col-1">
-                <img src="images/creditCard.png" alt="Credit Card" id="imagen1">
-              </div>
-            </div>
-            <div class="row my-2">
-              <div class="col-12">
-                <form>
-                  <input type="text" class="form-control text" id="nombreTarjeta" placeholder="Name On The Card" required>
-                </form>
-              </div>
-            </div>
-            <div class="row my-2">
-              <div class="col-12">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" required> Save details for fast payments <a href="#">learn how &#63;</a>
-                  </label>
+    <article>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <!-- -- INICIO -- -->
+          <div class="jumbotron">
+            <form action="index.html" method="post" id="creditCard">
+              <div class="row">
+                <div class="col-12">
+                  <input type="text" class="form-control" name="numeroTarjeta" placeholder="Enter Card Number" required autofocus>
                 </div>
               </div>
-            </div>
-            <div class="row justify-content-between">
-              <div class="col-4">
-                <button type="reset" class="btn btn-danger">CANCEL</button>
+              <div class="row mt-2">
+                <div class="col-3"><label for="mesTarjeta">Expiry Month</label></div>
+                <div class="col-3"><label for="anoTarjeta">Expiry Year</label></div>
+                <div class="col-3"><label for="ccv">CCV</label></div>
               </div>
-              <div class="col-6">
-                <button type="submit" form="creditCard" class="btn btn-warning px-5">PAY NOW</button>
+              <div class="row from-group">
+                <div class="col-3">
+                  <input type="month" class="form-control month" name="mesTarjeta" id="mesTarjeta" placeholder="MM" required>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="form-control" name="anoTarjeta" id="anoTarjeta" placeholder="YY" required>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="form-control" name="ccv" id="ccv" placeholder="CCV" required>
+                </div>
+                <div class="col-1">
+                  <img src="images/creditCard.png" alt="Credit Card" id="imagen1">
+                </div>
               </div>
-            </div>
-          </form>
+              <div class="row my-2">
+                <div class="col-12">
+                  <input type="text" class="form-control text" name="nombreTarjeta" placeholder="Name On The Card" required>
+                </div>
+              </div>
+              <div class="row my-2">
+                <div class="col-12">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox"> Save details for fast payments <a href="#">learn how &#63;</a>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-4">
+                  <button type="reset" form="creditCard" class="btn btn-danger">CANCEL</button>
+                </div>
+                <div class="col-6">
+                  <button type="submit" form="creditCard" class="btn btn-warning px-5">PAY NOW</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- -- FIN -- -->
         </div>
       </div>
-    </div>
+    </article>
+
   </div>
 
   <!-- Jquery y popper -->
