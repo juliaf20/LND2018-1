@@ -1,3 +1,7 @@
+var e;
+//MIRAR LA OPCIÓN DE HACER UN MENÚ!!!!
+
+
 var numero1 = 5;
 var numero2 = 8;
 
