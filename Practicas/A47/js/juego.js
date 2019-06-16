@@ -35,16 +35,16 @@ function congrats() {
     alert("Congratulations! You have guessed the color!\n\nIt took you " + contador + " guesses to finish the game!\n\nYou can see colour in the background.");
     flag = false;
 }
-// Función guess_input > target
+// Función guess_input < target
 function low() {
-  if (guess_input > target) {
+  if (guess_input < target) {
     alert(mensajeL);
     flag = true;
   }
 }
-// Función guess_input < target
+// Función guess_input > target
 function high() {
-  if (guess_input < target) {
+  if (guess_input > target) {
     alert(mensajeH);
     flag = true;
   }
