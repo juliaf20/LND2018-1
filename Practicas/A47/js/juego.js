@@ -30,10 +30,10 @@ do_game();
 /* FUNCIONES */
 // Función guess_input = target
 function congrats() {
-  if (guess_input == target) {
+    myBody=document.getElementsByTagName("body")[0];
+    myBody.style.background=target;
     alert("Congratulations! You have guessed the color!\n\nIt took you " + contador + " guesses to finish the game!\n\nYou can see colour in the background.");
     flag = false;
-  }
 }
 // Función guess_input < target
 function low() {
@@ -54,20 +54,24 @@ function do_game() {
   while (flag == true) {
     guess_input = prompt(mensajeI);
     contador++;
+    if (guess_input == target) {
+      congrats();
+      break;
+    }
     check_guess();
   }
 }
 // Función check_guess
 function check_guess() {
   for (var i = 0; i < (colors.length - 1); i++) {
-    if (guess_input != colors[i] && guess_input != target) {
+    if (guess_input != colors[i]) {
       alert(mensajeE);
       flag = true;
     }
-    if (guess_input == colors[i] && guess_input != target) {
+    if (guess_input == colors[i]) {
       high();
       low();
+      break;
     }
-    congrats();
   }
 }
