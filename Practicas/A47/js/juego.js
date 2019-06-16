@@ -23,7 +23,7 @@ var mensajeL = "Sorry, your guess is not correct!\n\nHint: Your color is alphabe
 var flag = true;
 
 /* PROGRAMA */
-alert(target);
+//alert(target);
 contador = 0;
 do_game();
 
