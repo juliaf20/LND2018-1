@@ -23,7 +23,7 @@ var mensajeL = "Sorry, your guess is not correct!\n\nHint: Your color is alphabe
 var flag = true;
 
 /* PROGRAMA */
-//alert(target);
+alert(target);
 contador = 0;
 do_game();
 
@@ -35,16 +35,16 @@ function congrats() {
     alert("Congratulations! You have guessed the color!\n\nIt took you " + contador + " guesses to finish the game!\n\nYou can see colour in the background.");
     flag = false;
 }
-// Función guess_input < target
+// Función guess_input > target
 function low() {
-  if (guess_input < target) {
+  if (guess_input > target) {
     alert(mensajeL);
     flag = true;
   }
 }
-// Función guess_input > target
+// Función guess_input < target
 function high() {
-  if (guess_input > target) {
+  if (guess_input < target) {
     alert(mensajeH);
     flag = true;
   }
@@ -57,21 +57,18 @@ function do_game() {
     if (guess_input == target) {
       congrats();
       break;
+    } else {
+      check_guess();
     }
-    check_guess();
   }
 }
 // Función check_guess
 function check_guess() {
-  for (var i = 0; i < (colors.length - 1); i++) {
-    if (guess_input != colors[i]) {
-      alert(mensajeE);
-      flag = true;
-    }
-    if (guess_input == colors[i]) {
-      high();
-      low();
-      break;
-    }
+  var cosa = colors.includes(guess_input);
+  if (cosa == false) {
+    alert(mensajeE);
+  } else {
+    high();
+    low();
   }
 }
